@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kreon:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kreon:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 0px 150px;
+    position: relative;
+}
+
+nav{
+    padding-top: 35px;
+}
+ul{
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.child-nav-div{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+}
+.child-nav-div ul li a{
+    margin-right: 30px;
+    padding-top: 20px;
+    display: inline-block;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #343A40;
+}
+.book-button a{
+    display: inline-block;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 21px 50px;
+    border-radius: 200px;
+    color: #007BFF;
+}
+.banner{
+    padding-bottom: 85px;
+}
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.child-banner-1 h1{
+    color: #007BFF;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    padding-top: 208px;
+    width: 865px;
+}
+.after-image::after{
+    content: url("../images/plane-after-image.svg");
+    
+}
+.child-banner-1 h2{
+    color: #FFC107;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5;
+    width: 865px;
+}
+.child-banner-1 p{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    width: 650px;
+}
+.child-banner-1 a{
+    display: inline-block;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F4F4F4;
+    padding: 21px 50px;
+    border-radius: 200px;
+    background-color: #007BFF;
+    margin-top: 40px;
+}
+.child-banner-2 img{
+    position: relative;
+}
+.main-banner::before{
+    content: url("../images/banner-background.svg");
+    position: absolute;
+    padding-left: 702px;
+    top: 0;
+}
+.yellow{
+    color: #FFC107;
+}
+.common-head{
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 38px;
+    color: #007BFF;
+}
+.yellow::after{
+    content: url("../images/yellow-underline.svg");
+    display: inline-block;
+}
+.about-us-section{
+    padding: 20px 150px;
+}
+.main-about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.child-about-us p{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #343A40;
+}
+.child-about-us{
+    width: 46%;
+}
+.inner-about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.green-text{
+    color: #28A745;
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 40px;
+}
+.child-inner img{
+    padding-top: 25px;
+}
+.child-about-us h2{
+    width: 280px;
+    padding-bottom: 30px;
+}
+.blue-section{
+    padding-top: 80px;
+}
+.learn-more{
+    position: relative; 
+    background-color: #0078FF; 
+    color: #FFFFFF; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 80px 150px;
+    height: 300px;     
+}
+.main-learn-more{
+    max-width: 50%; 
+    z-index: 2; 
+}
+.main-learn-more h2{
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 32px;
+    width: 710px; 
+}
+.main-learn-more a{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #FFFFFF;
+    border-radius: 200px;
+    margin-top: 20px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #007BFF;
+}
+.image-container {
+    position: absolute; 
+    bottom: 0;
+    right: 0px;
+    overflow: visible; 
+}
+.image-container img {
+    height: 445px;
+    width: auto;
+    transform: translateY(-2%); 
+}
+.cards-section{
+    padding: 0px 150px;
+    padding-top: 80px;
+}
+.main-card-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-card-div{
+    width: 32%;
+    height: 420px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+}
+.card-image{
+    align-items: center;
+    background-image: url("../images/card-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+.image-text{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px 15px 224px 225px;
+    border-radius: 5px;
+}
+.image-text p{
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 0px 15px;
+    color: #007BFF;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child-card-div a{
+    display: inline-block;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #343A40;
+    padding-top: 10px;
+}
+.card-image-2{
+    align-items: center;
+    background-image: url("../images/card-2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+.card-image-3{
+    align-items: center;
+    background-image: url("../images/card-3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+.card-image-4{
+    align-items: center;
+    background-image: url("../images/card-4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+.card-image-5{
+    align-items: center;
+    background-image: url("../images/card-5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+
+.card-image-6{
+    align-items: center;
+    background-image: url("../images/card-6.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 280px;
+    position: relative;
+}
+.explore{
+    padding: 80px 150px;
+}
+.main-explore{
+    display: flex;
+    justify-content: space-between;
+}
+.child-explore h2{
+    width: 500px;
+}
+.child-explore p{
+    width: 525px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #343A40;
+    padding-top: 20px;
+}
+.gallery{
+    padding: 0px 150px;
+}
+.inner-child-gallery-1{
+    background-image: url(../images/gallery-image-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 655px;
+    height: 440px;
+}
+.common-span{
+    display: inline-block;
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 355px 0px 0px 40px;
+}
+.gallery p{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+.inner-child-gallery-2{
+    background-image: url(../images/gallery-image-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 440px;
+}
+.child-gallery{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.inner-child-gallery-3{
+    background-image: url(../images/gallery-image-3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 440px;
+}
+.inner-child-gallery-4{
+    background-image: url(../images/gallery-image-4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 655px;
+    height: 440px;
+}
+.inner-child-gallery-5{
+    background-image: url(../images/gallery-image-5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 655px;
+    height: 440px;
+}
+.inner-child-gallery-6{
+    background-image: url(../images/gallery-image-6.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 440px;
+}
+.review{
+    padding: 80px 150px;
+}
+.main-review{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.child-review{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 32%;
+}
+.review-image-1{
+    background-image: url("../images/review-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+}
+.review-image-2{
+    background-image: url("../images/review-2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+}
+.review-image-3{
+    background-image: url("../images/review-3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 510px;
+}
+.star-rating img{
+    padding: 7px 14px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 225px;
+}
+.img-text{
+    padding-top: 15px;
+    padding-left: 15px ;
+    padding-bottom: 50px;
+}
+.img-text p{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #343A40;
+    padding-top: 20px;
+}
+.main-footer{
+    background-image: url("../images/footer\ bg.svg");
+}
+.main-footer img{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.footer-content{
+    padding: 0px 150px;
+    padding-bottom: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.child-footer p{
+    width: 460px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.footer-span{
+    font-family: "Inknut Antiqua", sans-serif;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 40px;
+}
+.child-footer a{
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+}
+
